@@ -1,0 +1,58 @@
+body{
+    background-color: #ceceff;
+}
+table{
+	margin-top: 50px;
+	text-align: left;	
+}
+
+#r1
+{
+    text-align: center;
+    color: Solid black;
+    font-style: italic;
+    font-size: 20px;
+    text-shadow: 5px 7px 5px;
+}
+
+#t1
+{
+    border-width: 8px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:white;
+    padding: 1em;
+    box-shadow: 10px 10px 5px;
+    box-sizing: 30px;
+}
+
+#show th, #show td{
+	padding: 13px;
+    border:none
+    
+
+}
+
+.te
+{
+    border-radius: 4px;
+    font-style: italic;
+}
+
+#btna td input{
+	width: 90%;
+    height: 35px;
+    background-color:#aaaaf3;
+    border: none;
+    font-style: italic;
+    
+}
+
+#btn
+{
+    font-size: 20px;
+    font-style: Arial;
+    text-shadow: 5px 8px 10px;
+    border-radius: 10px;
+    
+}
