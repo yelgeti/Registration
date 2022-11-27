@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+	<link rel="stylesheet" href="regi.css">
+</head>
+<body>
+	<form id="form1">
+<center>
+	<table border="0" id="t1">
+			<th id="r1">Registration Form</th>
+				<tr>
+					<td><br>First Name : <input type="text" class="te" name="fname" id="fname"  placeholder="Enter Your FirstName"></td>
+				</tr>
+			    
+				<tr>
+					<td><br>Last Name : &nbsp;<input type="text" class="te" name="lname"  id="lname" placeholder="Enter Your LastName"></td>
+				</tr>
+                
+				<tr>
+					<td><br>Email Id :&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="te" name="email" id="email" placeholder="Ex.abc@gmail.com"></td>
+				</tr>
+
+				<tr>
+					<td><br>Mobile No.: <input type="text" class="te" name="mob" id="mob" placeholder="Enter mobile in number"></td>
+				</tr>
+
+				<tr id="btna">
+					<td colspan="2"><br><input type="button" name="button" id="btn" value="Submit" onclick="AddRow()"></td>
+					
+				</tr>
+		</table>
+</center>
+		
+<center>
+			<table id="show">
+			
+				<tr>
+					<th>First Name</th>
+					<th>Last Name</th>
+					<th>Email Id</th>
+					<th>Mobile No.</th>
+				</tr>
+			
+		</table>
+    </center>
+    <script src="reg.js"></script>
+	</form>
+    </body>
+    </html>
